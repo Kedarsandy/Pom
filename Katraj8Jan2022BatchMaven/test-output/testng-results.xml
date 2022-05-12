@@ -2,62 +2,62 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-10T21:53:59 IST" name="Suite" finished-at="2022-05-10T21:54:21 IST" duration-ms="21950">
+  <suite started-at="2022-05-12T11:26:54 IST" name="Suite" finished-at="2022-05-12T11:27:22 IST" duration-ms="28417">
     <groups>
     </groups>
-    <test started-at="2022-05-10T21:53:59 IST" name="Test" finished-at="2022-05-10T21:54:21 IST" duration-ms="21950">
-      <class name="testjava.LoginPageTest">
-        <test-method is-config="true" signature="BrowserLaunch()[pri:0, instance:testjava.LoginPageTest@15aab8c6]" started-at="2022-05-10T21:54:12 IST" name="BrowserLaunch" finished-at="2022-05-10T21:54:16 IST" duration-ms="4439" status="PASS">
+    <test started-at="2022-05-12T11:26:54 IST" name="Test" finished-at="2022-05-12T11:27:22 IST" duration-ms="28417">
+      <class name="testjavapages.DashboardPageTest">
+        <test-method is-config="true" signature="BrowserLaunch()[pri:0, instance:testjavapages.DashboardPageTest@387a8303]" started-at="2022-05-12T11:27:08 IST" name="BrowserLaunch" finished-at="2022-05-12T11:27:14 IST" duration-ms="6708" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserLaunch -->
-        <test-method is-config="true" signature="allPageObjects()[pri:0, instance:testjava.LoginPageTest@15aab8c6]" started-at="2022-05-10T21:54:16 IST" name="allPageObjects" finished-at="2022-05-10T21:54:16 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="allPageObjects()[pri:0, instance:testjavapages.DashboardPageTest@387a8303]" started-at="2022-05-12T11:27:14 IST" name="allPageObjects" finished-at="2022-05-12T11:27:14 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allPageObjects -->
-        <test-method signature="verifyUrlOfPage()[pri:0, instance:testjava.LoginPageTest@15aab8c6]" started-at="2022-05-10T21:54:16 IST" name="verifyUrlOfPage" finished-at="2022-05-10T21:54:16 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUrlOfPage -->
-        <test-method is-config="true" signature="allPageObjects()[pri:0, instance:testjava.LoginPageTest@15aab8c6]" started-at="2022-05-10T21:54:16 IST" name="allPageObjects" finished-at="2022-05-10T21:54:16 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allPageObjects -->
-        <test-method signature="verifyTitleOfPage()[pri:1, instance:testjava.LoginPageTest@15aab8c6]" started-at="2022-05-10T21:54:16 IST" name="verifyTitleOfPage" finished-at="2022-05-10T21:54:16 IST" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitleOfPage -->
-        <test-method is-config="true" signature="allPageObjects()[pri:0, instance:testjava.LoginPageTest@15aab8c6]" started-at="2022-05-10T21:54:16 IST" name="allPageObjects" finished-at="2022-05-10T21:54:16 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allPageObjects -->
-        <test-method signature="verifyLoginWithCorrectCred()[pri:2, instance:testjava.LoginPageTest@15aab8c6]" started-at="2022-05-10T21:54:16 IST" name="verifyLoginWithCorrectCred" finished-at="2022-05-10T21:54:20 IST" duration-ms="4021" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithCorrectCred -->
-        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:testjava.LoginPageTest@15aab8c6]" started-at="2022-05-10T21:54:20 IST" name="tearDownBrowser" finished-at="2022-05-10T21:54:21 IST" duration-ms="719" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownBrowser -->
-      </class> <!-- testjava.LoginPageTest -->
-      <class name="testjava.DashboardPageTest">
-        <test-method is-config="true" signature="BrowserLaunch()[pri:0, instance:testjava.DashboardPageTest@37654521]" started-at="2022-05-10T21:53:59 IST" name="BrowserLaunch" finished-at="2022-05-10T21:54:05 IST" duration-ms="6074" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserLaunch -->
-        <test-method is-config="true" signature="allPageObjects()[pri:0, instance:testjava.DashboardPageTest@37654521]" started-at="2022-05-10T21:54:05 IST" name="allPageObjects" finished-at="2022-05-10T21:54:05 IST" duration-ms="24" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allPageObjects -->
-        <test-method signature="verifyLogoutOption()[pri:5, instance:testjava.DashboardPageTest@37654521]" started-at="2022-05-10T21:54:05 IST" name="verifyLogoutOption" finished-at="2022-05-10T21:54:11 IST" duration-ms="5860" status="PASS">
+        <test-method signature="verifyLogoutOption()[pri:5, instance:testjavapages.DashboardPageTest@387a8303]" started-at="2022-05-12T11:27:14 IST" name="verifyLogoutOption" finished-at="2022-05-12T11:27:22 IST" duration-ms="7081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogoutOption -->
-        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:testjava.DashboardPageTest@37654521]" started-at="2022-05-10T21:54:11 IST" name="tearDownBrowser" finished-at="2022-05-10T21:54:12 IST" duration-ms="737" status="PASS">
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:testjavapages.DashboardPageTest@387a8303]" started-at="2022-05-12T11:27:22 IST" name="tearDownBrowser" finished-at="2022-05-12T11:27:22 IST" duration-ms="638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownBrowser -->
-      </class> <!-- testjava.DashboardPageTest -->
+      </class> <!-- testjavapages.DashboardPageTest -->
+      <class name="testjavapages.LoginPageTest">
+        <test-method is-config="true" signature="BrowserLaunch()[pri:0, instance:testjavapages.LoginPageTest@69504ae9]" started-at="2022-05-12T11:26:54 IST" name="BrowserLaunch" finished-at="2022-05-12T11:27:02 IST" duration-ms="7864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunch -->
+        <test-method is-config="true" signature="allPageObjects()[pri:0, instance:testjavapages.LoginPageTest@69504ae9]" started-at="2022-05-12T11:27:02 IST" name="allPageObjects" finished-at="2022-05-12T11:27:02 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPageObjects -->
+        <test-method signature="verifyUrlOfPage()[pri:0, instance:testjavapages.LoginPageTest@69504ae9]" started-at="2022-05-12T11:27:02 IST" name="verifyUrlOfPage" finished-at="2022-05-12T11:27:02 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrlOfPage -->
+        <test-method signature="verifyTitleOfPage()[pri:1, instance:testjavapages.LoginPageTest@69504ae9]" started-at="2022-05-12T11:27:02 IST" name="verifyTitleOfPage" finished-at="2022-05-12T11:27:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfPage -->
+        <test-method is-config="true" signature="allPageObjects()[pri:0, instance:testjavapages.LoginPageTest@69504ae9]" started-at="2022-05-12T11:27:02 IST" name="allPageObjects" finished-at="2022-05-12T11:27:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPageObjects -->
+        <test-method is-config="true" signature="allPageObjects()[pri:0, instance:testjavapages.LoginPageTest@69504ae9]" started-at="2022-05-12T11:27:02 IST" name="allPageObjects" finished-at="2022-05-12T11:27:02 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allPageObjects -->
+        <test-method signature="verifyLoginWithCorrectCred()[pri:2, instance:testjavapages.LoginPageTest@69504ae9]" started-at="2022-05-12T11:27:02 IST" name="verifyLoginWithCorrectCred" finished-at="2022-05-12T11:27:07 IST" duration-ms="5391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithCorrectCred -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:testjavapages.LoginPageTest@69504ae9]" started-at="2022-05-12T11:27:07 IST" name="tearDownBrowser" finished-at="2022-05-12T11:27:08 IST" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+      </class> <!-- testjavapages.LoginPageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

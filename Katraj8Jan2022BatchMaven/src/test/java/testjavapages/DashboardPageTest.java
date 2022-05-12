@@ -1,11 +1,8 @@
-package testjava;
+package testjavapages;
 
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 
 public class DashboardPageTest extends BaseTest {
 
@@ -14,6 +11,6 @@ public class DashboardPageTest extends BaseTest {
 		loginPage.loginMethod("Admin", "admin123");
 		dashboardPage.logoutProcess();
 		boolean verifyLoginBtnDisplayed = loginPage.verifyBtnLoginIsDisplayed();
-		AssertJUnit.assertEquals(verifyLoginBtnDisplayed, true);
+		Assert.assertEquals(verifyLoginBtnDisplayed, true);
 	}
 }
